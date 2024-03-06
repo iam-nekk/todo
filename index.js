@@ -43,7 +43,7 @@ function addOrEditTask(){
 
     displayTasks()
     saveToLocalStorage()
-    //clearForm()
+    clearForm()
     console.log(todoTasks)
 }
 
