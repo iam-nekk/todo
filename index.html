@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div>
+        <h2>New Todo item</h2>
+            <input type="hidden" name="id" id="todoIdInput">
+
+            <label for="title">Title: </label><br>
+            <input type="text" name="title" id="todoTitleInput"><br>
+
+            <label for="description">Description: </label><br>
+            <input type="text" name="description" id="todoDescriptionInput"><br>
+
+            <label for="dueDate">Due Date: </label><br>
+            <input type="date" name="dueDate-date" id="todoDateInput">
+            <input type="time" name="dueDate-time" id="todoTimeInput"><br>
+
+            <label for="priority">Priority: </label><br>
+            <select name="priority" id="todoPriorityInput">
+                <option value="not-urgent" selected>not urgent</option>
+                <option value="normal">normal</option>
+                <option value="urgent">urgent</option>
+            </select><br>
+
+            <button name="button" id="todoButton">Submit</button>
+    </div>
+    <hr>
+    <div>
+        <ul id="todoList">
+
+        </ul>
+    </div>
+</body>
+</html>
